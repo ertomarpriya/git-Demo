@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="40.225">
+<testcase classname="Search and place order for vegetables" name="Search for items and validate results" time="20.232">
+<system-out><![CDATA[Given User is on greencart landing page.....................................passed
+When User searched for "Cucumber - 1 Kg" vegetable..........................passed
+Then "Cucumber - 1 Kg" results are displayed................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Search and place order for vegetables" name="Search for items and then move to checkout page" time="19.573">
+<system-out><![CDATA[Given User is on greencart landing page.....................................passed
+When User searched for "Brinjal - 1 Kg" vegetable...........................passed
+Then "Brinjal - 1 Kg" results are displayed.................................passed
+And added items to cart.....................................................passed
+And user proceeded to checkout page for purchase............................passed
+Then verify selected "Brinjal - 1 Kg" items are displayed in checkout page..passed
+]]></system-out>
+</testcase>
+</testsuite>
